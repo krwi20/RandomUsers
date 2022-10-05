@@ -16,6 +16,7 @@
 		FE13045928EDDD7300A5BFAD /* RandomUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13045828EDDD7300A5BFAD /* RandomUsersUITestsLaunchTests.swift */; };
 		FE13046628EDDE4100A5BFAD /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */; };
 		FE13046828EDE11100A5BFAD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046728EDE11100A5BFAD /* UserData.swift */; };
+		FE13046A28EDE33200A5BFAD /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046928EDE33200A5BFAD /* UsersView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FE13045828EDDD7300A5BFAD /* RandomUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 		FE13046728EDE11100A5BFAD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		FE13046928EDE33200A5BFAD /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				FE13044128EDDD7200A5BFAD /* Preview Content */,
 				FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */,
 				FE13046728EDE11100A5BFAD /* UserData.swift */,
+				FE13046928EDE33200A5BFAD /* UsersView.swift */,
 			);
 			path = RandomUsers;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE13046A28EDE33200A5BFAD /* UsersView.swift in Sources */,
 				FE13043E28EDDD7000A5BFAD /* ContentView.swift in Sources */,
 				FE13043C28EDDD7000A5BFAD /* RandomUsersApp.swift in Sources */,
 				FE13046828EDE11100A5BFAD /* UserData.swift in Sources */,

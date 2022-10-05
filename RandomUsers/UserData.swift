@@ -9,10 +9,12 @@
 
 import Foundation
 
-class UserData {
+class UserData: ObservableObject {
     
     // since the randomly generated users is a string
-    var users: String = ""
+    // published to update any subscribers with the newly published data -> makes userdata need to conform to
+    // observableobject to update subscribers
+    @Published var users: String = ""
     
     // could declare init as async, may be difficult to follow sync initialization, more appropriate to use task
     init() {
