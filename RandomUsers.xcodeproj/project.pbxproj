@@ -17,6 +17,7 @@
 		FE13046828EDE11100A5BFAD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046728EDE11100A5BFAD /* UserData.swift */; };
 		FE13046A28EDE33200A5BFAD /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046928EDE33200A5BFAD /* UsersView.swift */; };
 		FE13046C28EDFB5800A5BFAD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046B28EDFB5800A5BFAD /* User.swift */; };
+		FE13046E28EE02F600A5BFAD /* randomUsers.json in Resources */ = {isa = PBXBuildFile; fileRef = FE13046D28EE02F600A5BFAD /* randomUsers.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		FE13046728EDE11100A5BFAD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		FE13046928EDE33200A5BFAD /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
 		FE13046B28EDFB5800A5BFAD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		FE13046D28EE02F600A5BFAD /* randomUsers.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = randomUsers.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		FE13042F28EDDD7000A5BFAD = {
 			isa = PBXGroup;
 			children = (
+				FE13046D28EE02F600A5BFAD /* randomUsers.json */,
 				FE13043A28EDDD7000A5BFAD /* RandomUsers */,
 				FE13044B28EDDD7200A5BFAD /* RandomUsersTests */,
 				FE13045528EDDD7300A5BFAD /* RandomUsersUITests */,
@@ -242,6 +245,7 @@
 			files = (
 				FE13044328EDDD7200A5BFAD /* Preview Assets.xcassets in Resources */,
 				FE13044028EDDD7200A5BFAD /* Assets.xcassets in Resources */,
+				FE13046E28EE02F600A5BFAD /* randomUsers.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
