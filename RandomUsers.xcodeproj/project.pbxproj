@@ -14,6 +14,7 @@
 		FE13044D28EDDD7200A5BFAD /* RandomUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13044C28EDDD7200A5BFAD /* RandomUsersTests.swift */; };
 		FE13045728EDDD7300A5BFAD /* RandomUsersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13045628EDDD7300A5BFAD /* RandomUsersUITests.swift */; };
 		FE13045928EDDD7300A5BFAD /* RandomUsersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13045828EDDD7300A5BFAD /* RandomUsersUITestsLaunchTests.swift */; };
+		FE13046628EDDE4100A5BFAD /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		FE13045228EDDD7200A5BFAD /* RandomUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE13045628EDDD7300A5BFAD /* RandomUsersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITests.swift; sourceTree = "<group>"; };
 		FE13045828EDDD7300A5BFAD /* RandomUsersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				FE13043D28EDDD7000A5BFAD /* ContentView.swift */,
 				FE13043F28EDDD7200A5BFAD /* Assets.xcassets */,
 				FE13044128EDDD7200A5BFAD /* Preview Content */,
+				FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */,
 			);
 			path = RandomUsers;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				FE13043E28EDDD7000A5BFAD /* ContentView.swift in Sources */,
 				FE13043C28EDDD7000A5BFAD /* RandomUsersApp.swift in Sources */,
+				FE13046628EDDE4100A5BFAD /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
