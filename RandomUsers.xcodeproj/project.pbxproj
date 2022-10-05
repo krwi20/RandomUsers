@@ -16,6 +16,7 @@
 		FE13046628EDDE4100A5BFAD /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */; };
 		FE13046828EDE11100A5BFAD /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046728EDE11100A5BFAD /* UserData.swift */; };
 		FE13046A28EDE33200A5BFAD /* UsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046928EDE33200A5BFAD /* UsersView.swift */; };
+		FE13046C28EDFB5800A5BFAD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13046B28EDFB5800A5BFAD /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 		FE13046728EDE11100A5BFAD /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 		FE13046928EDE33200A5BFAD /* UsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersView.swift; sourceTree = "<group>"; };
+		FE13046B28EDFB5800A5BFAD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */,
 				FE13046728EDE11100A5BFAD /* UserData.swift */,
 				FE13046928EDE33200A5BFAD /* UsersView.swift */,
+				FE13046B28EDFB5800A5BFAD /* User.swift */,
 			);
 			path = RandomUsers;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				FE13046A28EDE33200A5BFAD /* UsersView.swift in Sources */,
 				FE13043C28EDDD7000A5BFAD /* RandomUsersApp.swift in Sources */,
 				FE13046828EDE11100A5BFAD /* UserData.swift in Sources */,
+				FE13046C28EDFB5800A5BFAD /* User.swift in Sources */,
 				FE13046628EDDE4100A5BFAD /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
