@@ -10,7 +10,7 @@ import Foundation
 struct UserFetchingClient {
     
     // static url property to retrieve ten users from the random user generator api in prettyjson format
-    static private let url = URL(string: "https://randomuser.me/api/?results=100&format=pretty")!
+    static private let url = URL(string: "https://randomuser.me/api/?results=10&format=pretty")!
     
     // function to retrieve the random user data
     // to call an async function the calling function needs to be async

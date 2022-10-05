@@ -9,6 +9,9 @@
 
 import Foundation
 
+// self.users must be set on the main thread; it is an observed object and being published to usersview
+// all ui updats must oocur on main thread (mainactor)
+@MainActor
 class UserData: ObservableObject {
     
     // since the randomly generated users is a string

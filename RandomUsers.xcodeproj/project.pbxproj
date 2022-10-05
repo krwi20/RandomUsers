@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		FE13043C28EDDD7000A5BFAD /* RandomUsersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13043B28EDDD7000A5BFAD /* RandomUsersApp.swift */; };
-		FE13043E28EDDD7000A5BFAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13043D28EDDD7000A5BFAD /* ContentView.swift */; };
 		FE13044028EDDD7200A5BFAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE13043F28EDDD7200A5BFAD /* Assets.xcassets */; };
 		FE13044328EDDD7200A5BFAD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE13044228EDDD7200A5BFAD /* Preview Assets.xcassets */; };
 		FE13044D28EDDD7200A5BFAD /* RandomUsersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE13044C28EDDD7200A5BFAD /* RandomUsersTests.swift */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		FE13043828EDDD7000A5BFAD /* RandomUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE13043B28EDDD7000A5BFAD /* RandomUsersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomUsersApp.swift; sourceTree = "<group>"; };
-		FE13043D28EDDD7000A5BFAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FE13043F28EDDD7200A5BFAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE13044228EDDD7200A5BFAD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FE13044828EDDD7200A5BFAD /* RandomUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -101,7 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				FE13043B28EDDD7000A5BFAD /* RandomUsersApp.swift */,
-				FE13043D28EDDD7000A5BFAD /* ContentView.swift */,
 				FE13043F28EDDD7200A5BFAD /* Assets.xcassets */,
 				FE13044128EDDD7200A5BFAD /* Preview Content */,
 				FE13046528EDDE4100A5BFAD /* UserFetchingClient.swift */,
@@ -267,7 +264,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE13046A28EDE33200A5BFAD /* UsersView.swift in Sources */,
-				FE13043E28EDDD7000A5BFAD /* ContentView.swift in Sources */,
 				FE13043C28EDDD7000A5BFAD /* RandomUsersApp.swift in Sources */,
 				FE13046828EDE11100A5BFAD /* UserData.swift in Sources */,
 				FE13046628EDDE4100A5BFAD /* UserFetchingClient.swift in Sources */,
