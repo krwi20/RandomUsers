@@ -14,10 +14,9 @@ import Foundation
 @MainActor
 class UserData: ObservableObject {
     
-    // since the randomly generated users is a string
     // published to update any subscribers with the newly published data -> makes userdata need to conform to
     // observableobject to update subscribers
-    @Published var users: String = ""
+    @Published var users: [User] = []
     
     // could declare init as async, may be difficult to follow sync initialization, more appropriate to use task
     init() {
