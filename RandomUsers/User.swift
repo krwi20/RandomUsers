@@ -24,6 +24,7 @@ struct User: Decodable, Identifiable {
     
     let id: String
     let name: Name
+    let picture: Picture
     
     var fullName: String {
         
@@ -35,8 +36,9 @@ struct User: Decodable, Identifiable {
         
         let values = try decoder.container(keyedBy: CodingKeys.self)
         name = try values.decode(Name.self, forKey: .name)
-        
+        picture = try values.decode(Picture.self, forKey: .picture)
         let loginInfo = try values.nestedContainer(keyedBy: LoginInfoCodingKeys.self, forKey: .login)
+        
         id = try loginInfo.decode(String.self, forKey: .uuid)
         
     }
@@ -45,6 +47,7 @@ struct User: Decodable, Identifiable {
         
         case login
         case name
+        case picture
         
     }
     
@@ -64,4 +67,10 @@ struct Name: Decodable {
     
 }
 
-
+struct Picture: Decodable {
+    
+    let large: String
+    let medium: String
+    let thumbnail: String
+    
+}
