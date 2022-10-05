@@ -14,20 +14,28 @@ class UserData {
     // since the randomly generated users is a string
     var users: String = ""
     
-    // will generate random users by calling the UserFetchingClient.getUsers() once an instance of User Data is created. Set users equal to the getUsers() function call
     // could declare init as async, may be difficult to follow sync initialization, more appropriate to use task
     init() {
         
         Task {
             
-            do {
-                let users = try await UserFetchingClient.getUsers()
-                self.users = users
-            }
+            await loadUsers()
             
-            catch {
-                print(error)
-            }
+        }
+        
+    }
+    
+    // When you create an instance of UserData, it will load ten generated users into the users property
+    func loadUsers() async {
+        
+        do {
+            
+            let users = try await UserFetchingClient.getUsers()
+            self.users = users
+            
+        } catch {
+            
+            print(error)
             
         }
         
